@@ -1,11 +1,13 @@
-import './App.css'
+import './App.css';
+import {Outlet} from "react-router-dom"
 
 function App() {
 
   return (
     <>
       <div>
-        <h1>GitHub Finder</h1>
+        <img src='../public/Imagens/logo.png' alt='logo do site' className='logo'/>
+        <Outlet/>
       </div>
     </>
   )
