@@ -1,0 +1,12 @@
+.logo {
+    width: 17vw;
+    margin-bottom: 2rem;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}

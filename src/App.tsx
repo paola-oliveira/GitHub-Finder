@@ -1,15 +1,13 @@
-import './App.css';
-import {Outlet} from "react-router-dom"
+import {Outlet} from "react-router-dom";
+import style from "./App.module.css"; 
 
 function App() {
 
   return (
-    <>
-      <div>
-        <img src='../public/Imagens/logo.png' alt='logo do site' className='logo'/>
+      <div className={style.app}>
+        <img src='../public/Imagens/logo.png' alt='logo do site' className={style.logo}/>
         <Outlet/>
       </div>
-    </>
   )
 }
 
