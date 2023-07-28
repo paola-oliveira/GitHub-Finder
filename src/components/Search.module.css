@@ -26,11 +26,22 @@
     border-radius: 3px;
     border: none;
     color: #33479E;
-    font-weight: 700;
+    font-weight: bold;
+    outline: #FFFCF3;
 }
 
 .search_container button {
     background-color: #FFFCF3;
     cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
 
+}
+
+.search_container button.hover {
+    opacity: 2;
+}
+
+.search_container svg {
+    font-size: 1rem;
 }
